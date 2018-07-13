@@ -1,0 +1,106 @@
+/* ----------------------------------- fonts ------------------------------- */
+/* ----------------------------------- widths ------------------------------- */
+/* ----------------------------------- colors ------------------------------- */
+.secondaryBackground {
+  background-color: #6B6B6B;
+  background-color: #6b6b6b;
+}
+.site-footer {
+  padding: 0px;
+  background: transparent;
+}
+.footer-content {
+  padding: 1rem 1.5rem;
+  background: #6B6B6B;
+}
+.footer-navigation {
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 1rem 0px;
+  margin-top: 0px;
+  background: #fff;
+}
+.footer-navigation .footer-menu-container {
+  text-align: center;
+  line-height: 1rem;
+}
+.footer-navigation ul {
+  display: inline-block;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.footer-navigation li {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.footer-navigation a {
+  display: block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: #000;
+  line-height: 1em;
+}
+.footer-navigation li:hover > a,
+.footer-navigation li > a:focus {
+  color: #fff;
+  background: #828282;
+  transition: background .6s;
+}
+/*------------------------------------ Clearing ------------------------------------*/
+.footer-content:after {
+  clear: both;
+}
+.footer-content:before,
+.footer-content:after {
+  display: table;
+  content: '';
+}
+/*------------------------------------ Font Icons ------------------------------------*/
+.footer-navigation ul li a::before {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'Fontawesome';
+  vertical-align: middle;
+}
+.footer-navigation ul li a[href*="@"]::before {
+  content: '\f0e0';
+}
+.footer-navigation ul li a[href*="google.com"]::before {
+  content: '\f0d5';
+}
+.footer-navigation ul li a[href*="vk.com"]::before {
+  content: '\f189';
+}
+.footer-navigation ul li a[href*="facebook.com"]::before {
+  content: '\f09a';
+}
+.footer-navigation ul li a[href*="linkedin.com"]::before {
+  content: '\f0e1';
+}
+.footer-navigation ul li a[href*="github.com"]::before {
+  content: '\f113';
+}
+.footer-navigation ul li a[href*="twitter.com"]::before {
+  content: '\f099';
+}
+.footer-navigation ul li a[href*="addons.mozilla.org"]::before {
+  content: '\f12e';
+}
+.footer-navigation ul li a[href*="joomla.org"]::before {
+  content: '\f1aa';
+}
+/*.footer-navigation ul li a[href*="wordpress.org"]::before,
+.footer-navigation ul li a[href*="wordpress.com"]::before {
+  content: '\f19a';
+}*/
+.footer-navigation ul li a[href*="wordpress.org"]::before,
+.footer-navigation ul li a[href*="wordpress.com"]::before {
+  font-family: "dashicons";
+  content: "\f324";
+}

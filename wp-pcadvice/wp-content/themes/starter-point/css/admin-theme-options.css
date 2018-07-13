@@ -1,0 +1,157 @@
+
+.starter-option{
+  margin:1em 0 0;
+}
+
+.editor_help{
+  display: table;
+  width: 100%;
+}
+.editor_help > div{
+  display: table-cell;
+  width: 25%;
+}
+
+/* ------------------------------------------- ACE editor styles ------------------------------------------- */
+
+#custom_css_div{
+  position: relative;
+  /*font-size:17px;*/
+  border: 1px solid #DFDFDF; 
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px; 
+  width: 100%; 
+  height: 400px; 
+}
+
+#custom_css_textarea{
+  display: none;
+}
+
+.ace_editor.ace_autocomplete{
+  top:353px !important;
+  font-size:15px !important;
+  height:130px !important;
+  width:330px !important;
+}
+
+#custom_css_div.ace_editor.fullScreen {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    position: fixed !important;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    z-index: 10;
+}
+
+/*@media(max-width:960px){
+  #custom_css_div.ace_editor.fullScreen {
+      top: 32px;
+      left: 36px;
+  }
+}
+
+@media(max-width:782px){
+  #custom_css_div.ace_editor.fullScreen {
+      top: 46px;
+      left: 0px;
+  }
+}*/
+
+.fullScreen {
+    overflow: hidden
+}
+
+
+/*#custom_css_div.ace-tm .ace_line .ace_constant{
+  color: #333;
+  font-weight: 700;
+}
+#custom_css_div.ace-tm .ace_line .ace_constant.ace-numeric{
+  font-weight: 100;
+}
+#custom_css_div.ace-tm .ace_line .ace_variable{
+  color: #2469E0;
+  font-style: italic;
+}
+#custom_css_div.ace-tm .ace_line .ace_support.ace_type{
+  color: #2F7FD8;
+  font-weight: 700;
+}
+#custom_css_div.ace-tm .ace_line .ace_keyword {
+    color: #2F7FD8;
+}*/
+
+
+/* ------------------------------------------- ACE shortcuts page ------------------------------------------- */
+
+
+.shortcuts-wrap,
+.snippets-wrap,
+.emmet-abbr-wrap{
+  margin:2em 0 0 2em;
+}
+
+.shortcut-list,
+.snippet-list,
+.emmet-abbr-list{
+  margin-top:2em;
+  font-size:1.1em;
+}
+.snippet-list{
+  font-size:1.2em;
+}
+.emmet-abbr-list section{
+  margin-top:2em;
+}
+
+.shotrcuts-table{
+  width:40%;
+  border-collapse:collapse;
+}
+.shotrcuts-table td,
+.snippets-table td,
+.emmet-abbrs-table td,
+.shotrcuts-table th,
+.snippets-table th,
+.emmet-abbrs-table th{
+  border:1px solid #aaa;
+  padding:0.5em;
+  text-align: left;
+}
+.shotrcuts-table td:first-child{
+  width:30%;
+}
+
+
+.shortcut-list .shortcut{
+  font-size:1em;
+  margin:0.5em 0;
+}
+.shortcut-list .shortcut .keys{
+  font-style: italic;
+}
+
+.snippets-table{
+  width:40%;
+  border-collapse:collapse;
+}
+.snippets-table td:first-child{
+  width:30%;
+}
+
+.emmet-abbrs-table{
+  width:40%;
+  border-collapse:collapse;
+}
+.emmet-abbrs-table td:first-child{
+  width:30%;
+}
+
+

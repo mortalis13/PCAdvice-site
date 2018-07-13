@@ -1,0 +1,37 @@
+.footer-widgets {
+  width: 100%;
+  color: #eee;
+  background: #444;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+.footer-widgets .widget-title,
+.footer-widgets .widget a:hover,
+.footer-widgets .widget a:focus {
+  color: #eee;
+  color: #ededed;
+  border-color: #ddd;
+  border-color: #dbdbdb;
+}
+.footer-widgets .widget {
+  float: left;
+  width: 380px;
+  margin: 0;
+  padding: 0 4rem 4rem 4rem;
+}
+/* Footer widgets responsive */
+@media screen and (max-width: 799px) {
+  #footer-widgets {
+    width: 100%!important;
+  }
+  .footer-widgets .widget {
+    float: none;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .footer-widgets .widget {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

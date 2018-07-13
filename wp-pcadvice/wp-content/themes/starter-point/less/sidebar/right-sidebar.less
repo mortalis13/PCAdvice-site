@@ -1,0 +1,28 @@
+/*
+Theme Name: Starter
+Layout: Right Sidebar
+*/
+
+.site-content .widget-area{  
+  float:right;
+  padding: 3rem 3rem 0 0;
+}
+
+.content-area{
+  float:left;  
+}
+
+/* ------------------------------------------------ media queries ------------------------------------------------ */
+
+@media screen and (max-width: 1240px) {
+  .site-content .widget-area{  
+    padding: 3rem 2rem 0 0;
+  }
+}
+
+@media screen and (max-width: 1040px) {              /* sidebar down */
+  .content-area,
+  .site-content .widget-area{  
+    float: none;
+  }
+}

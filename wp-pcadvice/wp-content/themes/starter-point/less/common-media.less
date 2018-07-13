@@ -1,0 +1,72 @@
+/*
+Theme Name: Starter
+Common Media queries for sidebar on/off
+*/
+
+@import 'vars/vars.less';
+
+
+@media screen and (max-width: 1040px) {              /* sidebar down */
+  .content-area,
+  .post .post-navigation,
+  .page .comments-area,
+  .single .comments-area{
+    width:@smContentWidth;
+  }
+  
+  .category-list-single,
+  .search-results .page-header,
+  .search-results .page.type-page{
+    padding-left:5rem;
+    padding-right:5rem;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .post,
+  .page.type-page,
+  .post .post-navigation,
+  .page .comments-area,
+  .single .comments-area{
+    width:@xsWidth;
+  }
+  
+  .content-area{
+    width: @xsContentWidth;
+  }
+  
+  .archive .category-content,
+  .category .category-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .post,
+  .category-list-single,
+  .page.type-page,
+  .page .comments-area,
+  .single .comments-area,
+  .single-attachment .attachment,
+  .search-results .page-header,
+  .search-results .page.type-page{
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+  
+  .home .content-area,
+  .blog .content-area,
+  .single .content-area,
+  .category .content-area,
+  .archive .content-area,
+  .page .content-area,
+  .search .content-area{
+    width:100%;
+  }
+  
+  .archive .category-content,
+  .category .category-content{
+    padding:2rem 1rem;
+  }
+}

@@ -1,0 +1,32 @@
+
+<pre class=.*[^-]\bcode-
+
+<pre class="code-es">
+<pre class="qwecode-es">
+<pre class="codeqwe-es">
+<pre class="code-es ">
+<pre class=" code-es">
+<pre class=" code-es asd-fsdfsdf">
+<pre class="rwer-fsdfsdf code-es">
+<pre class="rwer-fsdfsdf codex-es">
+<pre class="rwer-fsdfsdf es-code-es">
+
+<pre class="code-q"
+<pre class="abc code-q"
+<pre class="code-q abc"
+<pre class="code-q abc-qwe"
+<pre class="abc-qwe code-q"
+
+---------------------------------------------
+
+<pre class=.*[^-]\bline-numbers\b[^-]
+
+<pre class="line-numbers"
+<pre class="abc line-numbers"
+<pre class="line-numbers abc"
+<pre class="line-numbers abc-qwe"
+<pre class="abc-qwe line-numbers"
+
+<pre class="abc-qwe line-numbers-123"
+<pre class="abc-qwe line-numbersdsdfds"
+<pre class="line-numbersdsdfds abc-abc"

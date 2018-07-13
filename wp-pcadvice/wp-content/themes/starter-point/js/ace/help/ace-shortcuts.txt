@@ -1,0 +1,42 @@
+
+1. Basic Lines
+
+Ctrl+D - Remove line
+Ctrl+Shift+D - Duplicate selection
+Tab - Indent
+Shift+Tab - Unindent
+Alt+Up - Move lines up
+Alt+Down - Move lines down
+Alt+Shift+Up - Copy lines up
+Alt+Shift+Down - Copy lines down
+Alt+Delete - Remove to line end
+Alt+Backspace - Remove to linestart
+
+2. Multicursor
+
+Ctrl+Alt+Up - Add multi-cursor above
+Ctrl+Alt+Down - Add multi-cursor below
+Ctrl+Alt+Right - Add next occurrence to multi-selection
+Ctrl+Alt+Left - Add previous occurrence to multi-selection
+Ctrl+Alt+Shift+Up - Move multicursor from current line to the line above
+Ctrl+Alt+Shift+Down - Move multicursor from current line to the line below
+Ctrl+Alt+Shift+Right - Remove current occurrence from multi-selection and move to next
+Ctrl+Alt+Shift+Left - Remove current occurrence from multi-selection and move to previous
+
+3. Foldings
+
+Alt+0 - Fold all
+Alt+Shift+0 - Unfold all
+Alt+L, Ctrl+F1 - Fold selection
+Alt+Shift+L, Ctrl+Shift+F1 - Unfold
+
+4. Go To
+
+Ctrl+L - Go to line
+Ctrl+P - Go to matching bracket
+Ctrl+Shift+P - Select to matching bracket
+
+5. Operations
+
+Ctrl+Z - Undo
+Ctrl+Y, Ctrl+Shift+Z - Redo

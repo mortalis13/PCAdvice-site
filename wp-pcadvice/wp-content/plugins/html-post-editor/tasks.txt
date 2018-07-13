@@ -1,0 +1,4 @@
+
+ - disable JQUI resize for Visual
+ - media queries
+ - default resize handle in Ace

@@ -1,0 +1,1 @@
+return array('www.pcadvice.co.nf/es/sitemapindex.xml' => 'm3', 'www.pcadvice.co.nf/ru/sitemapindex.xml' => 'm2', 'www.pcadvice.co.nf' => 'm1', 'pcadvice.co.nf/es' => 'm3', 'pcadvice.co.nf/ru' => 'm2', 'pcadvice.co.nf' => 'm1');

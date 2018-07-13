@@ -1,0 +1,618 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Starter\n"
+"POT-Creation-Date: 2015-04-04 11:18+0200\n"
+"PO-Revision-Date: 2015-04-04 19:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:31
+msgid "Total"
+msgstr ""
+
+#: ../archive.php:44
+msgid "All"
+msgstr ""
+
+#: ../archive.php:68 ../content-archive.php:23 ../content-page.php:23
+#: ../content-search.php:57 ../content-single.php:31 ../content.php:65
+#: ../image.php:85
+msgid "Edit"
+msgstr ""
+
+#: ../comments.php:26
+#, php-format
+msgctxt "comments title"
+msgid "One comment:"
+msgid_plural "%1$s comments:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:43
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:44
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:45
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:63
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>.<br><a href=\"%3$s\" title=\"Log out "
+"of this account\">Log out</a>"
+msgstr ""
+
+#: ../content-none.php:16
+msgid "Page not available"
+msgstr ""
+
+#: ../content-none.php:20
+#, php-format
+msgid "Nothing found for <em>\"%s\"</em>"
+msgstr ""
+
+#: ../content-none.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:30
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:32
+msgid "You seem to be lost. To find what you are looking for use a search:"
+msgstr ""
+
+#: ../content-none.php:35
+msgid "Nothing matched your search terms. Try searching for something else:"
+msgstr ""
+
+#: ../content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-page.php:18 ../content-single.php:40 ../content.php:33
+#: ../image.php:56
+msgid "Pages:"
+msgstr ""
+
+#: ../content-search.php:21
+msgctxt "Search results label"
+msgid "Page"
+msgstr ""
+
+#: ../content-search.php:37 ../content.php:48
+msgid "Featured"
+msgstr ""
+
+#: ../content-search.php:66 ../content.php:77
+msgid "Continue Reading"
+msgstr ""
+
+#: ../content-single.php:44 ../content.php:37 ../image.php:60
+msgid "Page"
+msgstr ""
+
+#: ../content.php:78
+msgid "Continue Reading..."
+msgstr ""
+
+#: ../content.php:80
+msgctxt "First part of \"Read *article title* in title tag of Read more link"
+msgid "Read"
+msgstr ""
+
+#: ../content.php:83
+msgid "Continue<span aria-hidden=\"true\"> reading</span>..."
+msgstr ""
+
+#: ../content.php:85
+msgid "Read <span aria-hidden=\"true\">the article</span>"
+msgstr ""
+
+#: ../functions.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:170 ../inc/template-tags.php:178
+msgid "Views"
+msgstr ""
+
+#: ../functions.php:276
+msgid "Color"
+msgstr ""
+
+#: ../functions.php:279
+msgid "Use Custom Color"
+msgstr ""
+
+#: ../header.php:65
+msgid "Menu"
+msgstr ""
+
+#: ../image.php:23
+msgctxt "Parent post link"
+msgid "<span class=\"post-title\"><em>%title</em></span>"
+msgstr ""
+
+#: ../image.php:29
+msgid "<i class=\"fa fa-long-arrow-left\"></i> Previous Image"
+msgstr ""
+
+#: ../image.php:30
+msgid "Next Image <i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: ../image.php:77
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: ../inc/customizer.php:18
+msgctxt "Customizer: Labels"
+msgid "Theme Colors"
+msgstr ""
+
+#: ../inc/customizer.php:23
+msgctxt "Customizer: Labels"
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer.php:112
+msgctxt "Customizer: Front Page"
+msgid "Front Page Option"
+msgstr ""
+
+#: ../inc/customizer.php:127
+msgctxt "Customizer: Front Page"
+msgid "Front page displays"
+msgstr ""
+
+#: ../inc/customizer.php:140
+msgctxt "Customizer: Front Page"
+msgid "Front page"
+msgstr ""
+
+#: ../inc/customizer.php:152
+msgctxt "Customizer: Front Page"
+msgid "Posts page"
+msgstr ""
+
+#: ../inc/customizer.php:174
+msgctxt "Customizer: Front Page"
+msgid "Posts Count"
+msgstr ""
+
+#: ../inc/customizer.php:801
+msgctxt "Customizer: Scheme"
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer.php:802
+msgctxt "Customizer: Scheme"
+msgid "Dark"
+msgstr ""
+
+#: ../inc/customizer.php:803
+msgctxt "Customizer: Scheme"
+msgid "Blue"
+msgstr ""
+
+#: ../inc/customizer.php:804
+msgctxt "Customizer: Scheme"
+msgid "Custom"
+msgstr ""
+
+#: ../inc/customizer.php:820
+msgctxt "Customizer: Front Page"
+msgid "Your latest posts"
+msgstr ""
+
+#: ../inc/customizer.php:821
+msgctxt "Customizer: Front Page"
+msgid "A static page"
+msgstr ""
+
+#: ../inc/customizer.php:822
+msgctxt "Customizer: Front Page"
+msgid "Most viewed posts"
+msgstr ""
+
+#: ../inc/customizer.php:1075
+msgctxt "Customizer: Sections"
+msgid "Base Colors"
+msgstr ""
+
+#: ../inc/customizer.php:1076
+msgctxt "Customizer: Sections"
+msgid "Cotnainer Colors"
+msgstr ""
+
+#: ../inc/customizer.php:1077
+msgctxt "Customizer: Sections"
+msgid "Navigation Colors"
+msgstr ""
+
+#: ../inc/customizer.php:1078
+msgctxt "Customizer: Sections"
+msgid "Links Colors"
+msgstr ""
+
+#: ../inc/customizer.php:1079
+msgctxt "Customizer: Sections"
+msgid "Other Colors"
+msgstr ""
+
+#: ../inc/customizer.php:1080
+msgctxt "Customizer: Sections"
+msgid "Color Setting"
+msgstr ""
+
+#: ../inc/customizer.php:1081
+msgctxt "Customizer: Sections"
+msgid "Margins"
+msgstr ""
+
+#: ../inc/customizer.php:1082
+msgctxt "Customizer: Sections"
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer.php:1119
+msgctxt "Customizer: Colors"
+msgid "Body Background"
+msgstr ""
+
+#: ../inc/customizer.php:1120
+msgctxt "Customizer: Colors"
+msgid "Body Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1121
+msgctxt "Customizer: Colors"
+msgid "Header Background"
+msgstr ""
+
+#: ../inc/customizer.php:1122
+msgctxt "Customizer: Colors"
+msgid "Header Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1123
+msgctxt "Customizer: Colors"
+msgid "Container Background"
+msgstr ""
+
+#: ../inc/customizer.php:1124
+msgctxt "Customizer: Colors"
+msgid "Post Background"
+msgstr ""
+
+#: ../inc/customizer.php:1125
+msgctxt "Customizer: Colors"
+msgid "Footer Background"
+msgstr ""
+
+#: ../inc/customizer.php:1126
+msgctxt "Customizer: Colors"
+msgid "Footer Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1127
+msgctxt "Customizer: Colors"
+msgid "Background"
+msgstr ""
+
+#: ../inc/customizer.php:1128
+msgctxt "Customizer: Colors"
+msgid "Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1129
+msgctxt "Customizer: Colors"
+msgid "Current Background"
+msgstr ""
+
+#: ../inc/customizer.php:1130
+msgctxt "Customizer: Colors"
+msgid "Current Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1131
+msgctxt "Customizer: Colors"
+msgid "Nav Hover Background"
+msgstr ""
+
+#: ../inc/customizer.php:1132
+msgctxt "Customizer: Colors"
+msgid "Nav Hover Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1133
+msgctxt "Customizer: Colors"
+msgid "Links Color"
+msgstr ""
+
+#: ../inc/customizer.php:1134
+msgctxt "Customizer: Colors"
+msgid "Links Hover"
+msgstr ""
+
+#: ../inc/customizer.php:1135
+msgctxt "Customizer: Colors"
+msgid "Table Hover"
+msgstr ""
+
+#: ../inc/customizer.php:1136
+msgctxt "Customizer: Colors"
+msgid "Predefined Background"
+msgstr ""
+
+#: ../inc/customizer.php:1137
+msgctxt "Customizer: Colors"
+msgid "Predefined Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1138
+msgctxt "Customizer: Colors"
+msgid "Fields Background"
+msgstr ""
+
+#: ../inc/customizer.php:1139
+msgctxt "Customizer: Colors"
+msgid "Fields Foreground"
+msgstr ""
+
+#: ../inc/customizer.php:1140
+msgctxt "Customizer: Colors"
+msgid "Author Comment Background"
+msgstr ""
+
+#: ../inc/customizer.php:1141
+msgctxt "Customizer: Colors"
+msgid "Borders Color"
+msgstr ""
+
+#: ../inc/customizer.php:1142
+msgctxt "Customizer: Colors"
+msgid "Dimmed Color"
+msgstr ""
+
+#: ../inc/customizer.php:1143
+msgctxt "Customizer: Colors"
+msgid "Select Scheme"
+msgstr ""
+
+#: ../inc/customizer.php:1144
+msgctxt "Customizer: Colors"
+msgid "Use Category Colors"
+msgstr ""
+
+#: ../inc/customizer.php:1163
+msgctxt "Customizer: Layout"
+msgid "Content Area Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1164
+msgctxt "Customizer: Layout"
+msgid "Blog Post Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1165
+msgctxt "Customizer: Layout"
+msgid "Single Post Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1166
+msgctxt "Customizer: Layout"
+msgid "Single Post Bottom Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1167
+msgctxt "Customizer: Layout"
+msgid "Single Page Bottom Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1168
+msgctxt "Customizer: Layout"
+msgid "Category Bottom Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1169
+msgctxt "Customizer: Layout"
+msgid "Post Nav Bottom Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1170
+msgctxt "Customizer: Layout"
+msgid "Paging Nav Bottom Margin"
+msgstr ""
+
+#: ../inc/customizer.php:1171
+msgctxt "Customizer: Layout"
+msgid "Header Min Height"
+msgstr ""
+
+#: ../inc/customizer.php:1172
+msgctxt "Customizer: Layout"
+msgid "Menu Dropdown Width"
+msgstr ""
+
+#: ../inc/extras.php:36
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/options/css-snippets.php:3 ../inc/options/editor-shortcuts.php:3
+#: ../inc/options/emmet-abbr.php:3
+msgid "Return To Options"
+msgstr ""
+
+#: ../inc/options/theme-options.php:17
+msgid "Starter Point Options"
+msgstr ""
+
+#: ../inc/options/theme-options.php:42
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/options/theme-options.php:45
+msgid "Style Has Been Reset"
+msgstr ""
+
+#: ../inc/options/theme-options.php:52
+msgid "Disable Image Cropping"
+msgstr ""
+
+#: ../inc/options/theme-options.php:54
+msgid "Disables thumbnails creation on image uploads in the Media manager"
+msgstr ""
+
+#: ../inc/options/theme-options.php:58
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/options/theme-options.php:68
+msgid "Ace Editor Shortcuts"
+msgstr ""
+
+#: ../inc/options/theme-options.php:69
+msgid "Ace Editor CSS Snippets"
+msgstr ""
+
+#: ../inc/options/theme-options.php:70
+msgid "Emmet CSS Abbreviations"
+msgstr ""
+
+#: ../inc/options/theme-options.php:71
+msgid "Emmet CSS [Full List]"
+msgstr ""
+
+#: ../inc/options/theme-options.php:75
+msgid "Use Custom CSS"
+msgstr ""
+
+#: ../inc/options/theme-options.php:80
+msgid "Use Category Colors"
+msgstr ""
+
+#: ../inc/options/theme-options.php:82
+msgid "Category link colors can be selected in each category edit page"
+msgstr ""
+
+#: ../inc/options/theme-options.php:94
+msgid "Restore Factory Style"
+msgstr ""
+
+#: ../inc/template-tags.php:45
+msgid "Previous"
+msgstr ""
+
+#: ../inc/template-tags.php:46
+msgid "Next"
+msgstr ""
+
+#: ../inc/template-tags.php:54
+msgid "Page navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:80
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:83
+msgid "Previous Post"
+msgstr ""
+
+#: ../inc/template-tags.php:84
+msgid "Next Post"
+msgstr ""
+
+#: ../inc/template-tags.php:103
+msgctxt "Posted on date"
+msgid "d.m.Y"
+msgstr ""
+
+#: ../inc/template-tags.php:106
+msgctxt "Posted on time"
+msgid "H:i"
+msgstr ""
+
+#: ../inc/template-tags.php:109
+#, php-format
+msgctxt ""
+"mobile-hide class is used to hide connecting elements like \"on\" and \".\" "
+"on wider screens."
+msgid ""
+"<span class=\"posted-on\">%1$s</span><span class=\"mobile-hide\"></span>"
+msgstr ""
+
+#: ../inc/template-tags.php:175
+msgid "Date"
+msgstr ""
+
+#: ../inc/template-tags.php:176
+msgid "Title"
+msgstr ""
+
+#: ../inc/template-tags.php:177
+msgid "Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:285
+msgid "Uncategorized"
+msgstr ""
+
+#: ../inc/template-tags.php:321
+msgid "Comments Off"
+msgstr ""
+
+#: ../inc/template-tags.php:328
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: ../inc/template-tags.php:344
+#, php-format
+msgid "Comment on %s"
+msgstr ""
+
+#: ../inc/template-tags.php:347
+#, php-format
+msgid "1 Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/template-tags.php:349
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for: <em>\"%s\"</em>"
+msgstr ""
